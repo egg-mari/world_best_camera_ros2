@@ -8,6 +8,8 @@
 
 This project is a simple camera application developed using ROS 2 (Robot Operating System version 2). The app is designed to publish and subscribe to image topics in ROS 2, enabling real-time reception and display of camera feeds.
 
+
+
 ## Installation
 
 Before you begin, ensure that you have ROS 2 installed on your system. For installation instructions, refer to the [ROS 2 Documentation](https://docs.ros.org/en/galactic/Installation.html).
@@ -51,6 +53,9 @@ When you execute the launch file in the terminal, `rqt` will be executed, and th
    ![Default Camera View](https://github.com/junroun/world_best_camera_ros2/assets/162243442/d5d2e7e6-d9f4-419e-bd5a-c571db994012)
 
 3. **Available Filters**: Choose from available filters such as 'blur', 'bolol', 'median', 'mirror', 'rens', and 'sharpening'.
+
+![image](https://github.com/junroun/world_best_camera_ros2/assets/162243442/088872c0-f15c-483c-9c66-a1a42413d267)
+
 
 4. **Video Recording**:
    - Press the 'R' key to start recording the video.
