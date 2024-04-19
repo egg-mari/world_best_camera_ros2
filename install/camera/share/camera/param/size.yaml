@@ -1,0 +1,4 @@
+camera12:
+  ros__parameters:
+    width: 900
+    length: 600

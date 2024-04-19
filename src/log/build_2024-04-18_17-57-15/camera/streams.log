@@ -1,0 +1,65 @@
+[0.423s] Invoking command in '/home/jun/ros_ws/camera/src/camera': PYTHONPATH=/home/jun/ros_ws/camera/src/build/camera/prefix_override:/home/jun/ros_ws/camera/src/install/camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/camera build --build-base /home/jun/ros_ws/camera/src/build/camera/build install --record /home/jun/ros_ws/camera/src/build/camera/install.log --single-version-externally-managed install_data
+[0.624s] running egg_info
+[0.624s] creating ../build/camera/camera.egg-info
+[0.624s] writing ../build/camera/camera.egg-info/PKG-INFO
+[0.625s] writing dependency_links to ../build/camera/camera.egg-info/dependency_links.txt
+[0.625s] writing entry points to ../build/camera/camera.egg-info/entry_points.txt
+[0.625s] writing requirements to ../build/camera/camera.egg-info/requires.txt
+[0.625s] writing top-level names to ../build/camera/camera.egg-info/top_level.txt
+[0.625s] writing manifest file '../build/camera/camera.egg-info/SOURCES.txt'
+[0.626s] reading manifest file '../build/camera/camera.egg-info/SOURCES.txt'
+[0.627s] writing manifest file '../build/camera/camera.egg-info/SOURCES.txt'
+[0.627s] running build
+[0.627s] running build_py
+[0.627s] creating /home/jun/ros_ws/camera/src/build/camera/build
+[0.627s] creating /home/jun/ros_ws/camera/src/build/camera/build/lib
+[0.627s] creating /home/jun/ros_ws/camera/src/build/camera/build/lib/camera
+[0.627s] copying camera/median.py -> /home/jun/ros_ws/camera/src/build/camera/build/lib/camera
+[0.627s] copying camera/bolok.py -> /home/jun/ros_ws/camera/src/build/camera/build/lib/camera
+[0.627s] copying camera/camera.py -> /home/jun/ros_ws/camera/src/build/camera/build/lib/camera
+[0.627s] copying camera/__init__.py -> /home/jun/ros_ws/camera/src/build/camera/build/lib/camera
+[0.627s] copying camera/mirror_edge.py -> /home/jun/ros_ws/camera/src/build/camera/build/lib/camera
+[0.627s] copying camera/blur.py -> /home/jun/ros_ws/camera/src/build/camera/build/lib/camera
+[0.628s] copying camera/rens.py -> /home/jun/ros_ws/camera/src/build/camera/build/lib/camera
+[0.628s] copying camera/Sharpening.py -> /home/jun/ros_ws/camera/src/build/camera/build/lib/camera
+[0.628s] running install
+[0.628s] running install_lib
+[0.629s] creating /home/jun/ros_ws/camera/src/install/camera/lib/python3.10/site-packages/camera
+[0.629s] copying /home/jun/ros_ws/camera/src/build/camera/build/lib/camera/median.py -> /home/jun/ros_ws/camera/src/install/camera/lib/python3.10/site-packages/camera
+[0.629s] copying /home/jun/ros_ws/camera/src/build/camera/build/lib/camera/bolok.py -> /home/jun/ros_ws/camera/src/install/camera/lib/python3.10/site-packages/camera
+[0.629s] copying /home/jun/ros_ws/camera/src/build/camera/build/lib/camera/camera.py -> /home/jun/ros_ws/camera/src/install/camera/lib/python3.10/site-packages/camera
+[0.629s] copying /home/jun/ros_ws/camera/src/build/camera/build/lib/camera/__init__.py -> /home/jun/ros_ws/camera/src/install/camera/lib/python3.10/site-packages/camera
+[0.629s] copying /home/jun/ros_ws/camera/src/build/camera/build/lib/camera/mirror_edge.py -> /home/jun/ros_ws/camera/src/install/camera/lib/python3.10/site-packages/camera
+[0.629s] copying /home/jun/ros_ws/camera/src/build/camera/build/lib/camera/blur.py -> /home/jun/ros_ws/camera/src/install/camera/lib/python3.10/site-packages/camera
+[0.629s] copying /home/jun/ros_ws/camera/src/build/camera/build/lib/camera/rens.py -> /home/jun/ros_ws/camera/src/install/camera/lib/python3.10/site-packages/camera
+[0.629s] copying /home/jun/ros_ws/camera/src/build/camera/build/lib/camera/Sharpening.py -> /home/jun/ros_ws/camera/src/install/camera/lib/python3.10/site-packages/camera
+[0.629s] byte-compiling /home/jun/ros_ws/camera/src/install/camera/lib/python3.10/site-packages/camera/median.py to median.cpython-310.pyc
+[0.630s] byte-compiling /home/jun/ros_ws/camera/src/install/camera/lib/python3.10/site-packages/camera/bolok.py to bolok.cpython-310.pyc
+[0.630s] byte-compiling /home/jun/ros_ws/camera/src/install/camera/lib/python3.10/site-packages/camera/camera.py to camera.cpython-310.pyc
+[0.631s] byte-compiling /home/jun/ros_ws/camera/src/install/camera/lib/python3.10/site-packages/camera/__init__.py to __init__.cpython-310.pyc
+[0.631s] byte-compiling /home/jun/ros_ws/camera/src/install/camera/lib/python3.10/site-packages/camera/mirror_edge.py to mirror_edge.cpython-310.pyc
+[0.631s] byte-compiling /home/jun/ros_ws/camera/src/install/camera/lib/python3.10/site-packages/camera/blur.py to blur.cpython-310.pyc
+[0.631s] byte-compiling /home/jun/ros_ws/camera/src/install/camera/lib/python3.10/site-packages/camera/rens.py to rens.cpython-310.pyc
+[0.632s] byte-compiling /home/jun/ros_ws/camera/src/install/camera/lib/python3.10/site-packages/camera/Sharpening.py to Sharpening.cpython-310.pyc
+[0.632s] running install_data
+[0.632s] creating /home/jun/ros_ws/camera/src/install/camera/share/ament_index
+[0.632s] creating /home/jun/ros_ws/camera/src/install/camera/share/ament_index/resource_index
+[0.632s] creating /home/jun/ros_ws/camera/src/install/camera/share/ament_index/resource_index/packages
+[0.632s] copying resource/camera -> /home/jun/ros_ws/camera/src/install/camera/share/ament_index/resource_index/packages
+[0.632s] copying package.xml -> /home/jun/ros_ws/camera/src/install/camera/share/camera
+[0.632s] creating /home/jun/ros_ws/camera/src/install/camera/share/camera/launch
+[0.632s] copying launch/camera.launch.py -> /home/jun/ros_ws/camera/src/install/camera/share/camera/launch
+[0.632s] creating /home/jun/ros_ws/camera/src/install/camera/share/camera/param
+[0.632s] copying param/size.yaml -> /home/jun/ros_ws/camera/src/install/camera/share/camera/param
+[0.632s] running install_egg_info
+[0.633s] Copying ../build/camera/camera.egg-info to /home/jun/ros_ws/camera/src/install/camera/lib/python3.10/site-packages/camera-0.0.0-py3.10.egg-info
+[0.634s] running install_scripts
+[0.648s] Installing Sharpening script to /home/jun/ros_ws/camera/src/install/camera/lib/camera
+[0.648s] Installing blur script to /home/jun/ros_ws/camera/src/install/camera/lib/camera
+[0.648s] Installing bolok script to /home/jun/ros_ws/camera/src/install/camera/lib/camera
+[0.648s] Installing camera script to /home/jun/ros_ws/camera/src/install/camera/lib/camera
+[0.648s] Installing median script to /home/jun/ros_ws/camera/src/install/camera/lib/camera
+[0.648s] Installing mirror_edge script to /home/jun/ros_ws/camera/src/install/camera/lib/camera
+[0.648s] Installing rens script to /home/jun/ros_ws/camera/src/install/camera/lib/camera
+[0.648s] writing list of installed files to '/home/jun/ros_ws/camera/src/build/camera/install.log'
+[0.664s] Invoked command in '/home/jun/ros_ws/camera/src/camera' returned '0': PYTHONPATH=/home/jun/ros_ws/camera/src/build/camera/prefix_override:/home/jun/ros_ws/camera/src/install/camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/camera build --build-base /home/jun/ros_ws/camera/src/build/camera/build install --record /home/jun/ros_ws/camera/src/build/camera/install.log --single-version-externally-managed install_data

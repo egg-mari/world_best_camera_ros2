@@ -1,0 +1,9 @@
+[console_scripts]
+Sharpening = camera.Sharpening:main
+blur = camera.blur:main
+bolok = camera.bolok:main
+camera = camera.camera:main
+median = camera.median:main
+mirror_edge = camera.mirror_edge:main
+rens = camera.rens:main
+

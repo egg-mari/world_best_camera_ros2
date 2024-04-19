@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/camera/best_camera.egg-info/PKG-INFO
+../../build/camera/best_camera.egg-info/SOURCES.txt
+../../build/camera/best_camera.egg-info/dependency_links.txt
+../../build/camera/best_camera.egg-info/entry_points.txt
+../../build/camera/best_camera.egg-info/requires.txt
+../../build/camera/best_camera.egg-info/top_level.txt
+../../build/camera/best_camera.egg-info/zip-safe
+camera/__init__.py
+camera/camera.py
+param/size.yaml
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
