@@ -10,20 +10,20 @@ import numpy as np
 
 class ImageProcessor(Node):
     def __init__(self):
-        super().__init__('mirror_edge')
+        super().__init__('edge')
         self.declare_parameter('thrs1', 200)
         self.declare_parameter('thrs2', 400)
         self.thrs1 = self.get_parameter('thrs1').value
         self.thrs2 = self.get_parameter('thrs2').value
         self.img_subscriber = self.create_subscription(
             Image,
-            '/camera12',  
+            '/camera',  
             self.image_callback,
             10)
 
         self.img_publisher = self.create_publisher(
             Image,
-            '/mirror_edge',  # Where to publish the processed image data
+            'edge',  # Where to publish the processed image data
             10)
 
         self.cv_bridge = CvBridge()

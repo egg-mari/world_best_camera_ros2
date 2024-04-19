@@ -1,0 +1,31 @@
+[0.420s] Invoking command in '/home/jun/ros_ws/camera/src/camera': PYTHONPATH=/home/jun/ros_ws/camera/build/camera/prefix_override:/home/jun/ros_ws/camera/install/camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera build --build-base /home/jun/ros_ws/camera/build/camera/build install --record /home/jun/ros_ws/camera/build/camera/install.log --single-version-externally-managed install_data
+[0.580s] running egg_info
+[0.580s] writing ../../build/camera/camera.egg-info/PKG-INFO
+[0.580s] writing dependency_links to ../../build/camera/camera.egg-info/dependency_links.txt
+[0.580s] writing entry points to ../../build/camera/camera.egg-info/entry_points.txt
+[0.580s] writing requirements to ../../build/camera/camera.egg-info/requires.txt
+[0.580s] writing top-level names to ../../build/camera/camera.egg-info/top_level.txt
+[0.581s] reading manifest file '../../build/camera/camera.egg-info/SOURCES.txt'
+[0.582s] writing manifest file '../../build/camera/camera.egg-info/SOURCES.txt'
+[0.582s] running build
+[0.582s] running build_py
+[0.582s] copying camera/record.py -> /home/jun/ros_ws/camera/build/camera/build/lib/camera
+[0.583s] running install
+[0.583s] running install_lib
+[0.584s] copying /home/jun/ros_ws/camera/build/camera/build/lib/camera/record.py -> /home/jun/ros_ws/camera/install/camera/lib/python3.10/site-packages/camera
+[0.584s] byte-compiling /home/jun/ros_ws/camera/install/camera/lib/python3.10/site-packages/camera/record.py to record.cpython-310.pyc
+[0.585s] running install_data
+[0.585s] running install_egg_info
+[0.586s] removing '/home/jun/ros_ws/camera/install/camera/lib/python3.10/site-packages/camera-0.0.0-py3.10.egg-info' (and everything under it)
+[0.586s] Copying ../../build/camera/camera.egg-info to /home/jun/ros_ws/camera/install/camera/lib/python3.10/site-packages/camera-0.0.0-py3.10.egg-info
+[0.586s] running install_scripts
+[0.600s] Installing Sharpening script to /home/jun/ros_ws/camera/install/camera/lib/camera
+[0.600s] Installing blur script to /home/jun/ros_ws/camera/install/camera/lib/camera
+[0.600s] Installing bolok script to /home/jun/ros_ws/camera/install/camera/lib/camera
+[0.600s] Installing camera script to /home/jun/ros_ws/camera/install/camera/lib/camera
+[0.600s] Installing median script to /home/jun/ros_ws/camera/install/camera/lib/camera
+[0.600s] Installing mirror_edge script to /home/jun/ros_ws/camera/install/camera/lib/camera
+[0.600s] Installing record script to /home/jun/ros_ws/camera/install/camera/lib/camera
+[0.600s] Installing rens script to /home/jun/ros_ws/camera/install/camera/lib/camera
+[0.600s] writing list of installed files to '/home/jun/ros_ws/camera/build/camera/install.log'
+[0.616s] Invoked command in '/home/jun/ros_ws/camera/src/camera' returned '0': PYTHONPATH=/home/jun/ros_ws/camera/build/camera/prefix_override:/home/jun/ros_ws/camera/install/camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera build --build-base /home/jun/ros_ws/camera/build/camera/build install --record /home/jun/ros_ws/camera/build/camera/install.log --single-version-externally-managed install_data

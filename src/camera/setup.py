@@ -26,7 +26,7 @@ setup(
     entry_points={
         'console_scripts': [
             'camera = camera.camera:main',
-            'mirror_edge = camera.mirror_edge:main',
+            'edge = camera.edge:main',
             'Sharpening = camera.Sharpening:main',
             'median = camera.median:main',
             'blur = camera.blur:main',

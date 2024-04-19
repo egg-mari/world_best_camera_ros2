@@ -39,6 +39,8 @@ class ScreenRecorder(Node):
                     self.start_recording()
                 else:
                     self.stop_recording()
+            elif key.char == 's':  # s 키를 누를 때 스크린샷 기능 추가
+                self.take_screenshot()
         except AttributeError:
             pass
 
@@ -69,12 +71,18 @@ class ScreenRecorder(Node):
             frame = np.array(screenshot)
             frame = cv2.cvtColor(frame, cv2.COLOR_RGB2BGR)
             self.out.write(frame)
-            cv2.imshow('Recording', frame)
             if cv2.waitKey(1) & 0xFF == ord('q'):
                 self.stop_recording()
                 self.destroy_node()
                 rclpy.shutdown()
-
+    def take_screenshot(self):
+        if self.window_geometry:
+            x, y, width, height = self.window_geometry
+            screenshot = pyautogui.screenshot(region=(x, y, width, height))
+            current_time = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+            screenshot_path = f'screenshot_{current_time}.png'
+            screenshot.save(screenshot_path)  # 스크린샷을 파일로 저장
+            self.get_logger().info(f"Screenshot saved as {screenshot_path}")
 def main(args=None):
     rclpy.init(args=args)
     screen_recorder = ScreenRecorder()

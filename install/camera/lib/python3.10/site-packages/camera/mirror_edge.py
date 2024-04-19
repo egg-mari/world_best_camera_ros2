@@ -17,7 +17,7 @@ class ImageProcessor(Node):
         self.thrs2 = self.get_parameter('thrs2').value
         self.img_subscriber = self.create_subscription(
             Image,
-            '/camera12',  
+            '/camera',  
             self.image_callback,
             10)
 

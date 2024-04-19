@@ -37,13 +37,13 @@ def generate_launch_description():
         Node(
             package='camera',
             executable='camera',
-            name='camera12',
+            name='camera',
             parameters=[param_dir],
             output='screen'),
         Node(
             package='camera',  
-            executable='mirror_edge',
-            name='mirror_edge',
+            executable='edge',
+            name='edge',
             output='screen'
         ),
         Node(

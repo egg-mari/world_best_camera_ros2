@@ -14,7 +14,7 @@ class ImageProcessor(Node):
 
         self.img_subscriber = self.create_subscription(
             Image,
-            '/camera12',  
+            '/camera',  
             self.image_callback,
             10)
 

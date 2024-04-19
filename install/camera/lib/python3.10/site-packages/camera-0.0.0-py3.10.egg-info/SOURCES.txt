@@ -13,8 +13,8 @@ camera/__init__.py
 camera/blur.py
 camera/bolok.py
 camera/camera.py
+camera/edge.py
 camera/median.py
-camera/mirror_edge.py
 camera/record.py
 camera/rens.py
 launch/camera.launch.py

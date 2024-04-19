@@ -7,7 +7,7 @@ import cv2
 class ImgPublisher(Node):
     def __init__(self):
         super().__init__('camera')
-        self.publisher = self.create_publisher(Image,'/camera12',10)
+        self.publisher = self.create_publisher(Image,'/camera',10)
         time_period = 0.01
         self.timer = self.create_timer(time_period,
                                         self.time_callback)
@@ -30,7 +30,7 @@ def main() :
     rclpy.init()
     node = ImgPublisher()
     rclpy.spin(node)
-    node.destaroy_node()
+    node.destroy_node()
     rclpy.shutdown()
 if __name__ == '__main__':
     main()
